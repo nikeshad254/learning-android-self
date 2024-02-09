@@ -7,7 +7,7 @@ public class MyClass {
     public static void main(String args[]) {
         greetHello();
 
-        Car c = new Car();
+        Car c = new Car(100);
         c.accelerate();
         c.accelerate();
         c.brake();
@@ -21,6 +21,9 @@ public class MyClass {
 class Car{
     int speed;
 
+    public Car(int carSpeed){
+        speed = carSpeed;
+    }
     void tellSpeed(){
         System.out.println("Your speed is now: "+ speed);
     }
