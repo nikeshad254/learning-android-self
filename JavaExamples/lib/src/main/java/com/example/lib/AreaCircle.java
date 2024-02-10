@@ -8,7 +8,7 @@ public class AreaCircle {
         Scanner s = new Scanner(System.in);
 
         System.out.println("Input radius: ");
-        float r = s.nextInt();
+        float r = s.nextFloat();
 
         double area =  3.14 * r * r;
         double perimeter = 2 * 3.14 * r;
