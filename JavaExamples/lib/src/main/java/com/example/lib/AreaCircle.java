@@ -3,6 +3,7 @@ package com.example.lib;
 import java.util.Scanner;
 
 public class AreaCircle {
+    // from user input radius find area and perimeter of circle
     public static  void main(String args[]){
         Scanner s = new Scanner(System.in);
 
